@@ -1,4 +1,4 @@
 # LeetCode
 
 
-## Two Sum
+## [The Coding Diaries](https://hackmd.io/@AndyKuo/LeetCode)
