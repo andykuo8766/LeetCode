@@ -4,8 +4,8 @@
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size) {
 
     int count = nums1Size + nums2Size;
-    if (nums2Size == 0 & nums1Size == 1) return (double)nums1[0];
-    if (nums1Size == 0 & nums2Size == 1) return (double)nums2[0];
+    if (nums2Size == 0 && nums1Size == 1) return (double)nums1[0];
+    if (nums1Size == 0 && nums2Size == 1) return (double)nums2[0];
 
 
     int* array = (int*)malloc(sizeof(int) * count);
@@ -32,7 +32,7 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
             num2 = nums2[current_num2];
             flag2 = 0;
         }
-        if (flag1 == 0 & flag2 == 0) {
+        if (flag1 == 0 && flag2 == 0) {
             if (num1 <= num2) {
 
                 total += num1;
@@ -47,19 +47,19 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
                 if (nums2Size != 0)nums2Size--;
             }
         }
-        else if(flag1 == 0 & flag2 == 1){
+        else if(flag1 == 0 && flag2 == 1){
             total += num1;
             array[i] = num1;
             current_num1++;
             if (nums1Size != 0)nums1Size--;
         }
-        else if (flag1 == 1 & flag2 == 0) {
+        else if (flag1 == 1 && flag2 == 0) {
             total += num2;
             array[i] = num2;
             current_num2++;
             if (nums2Size != 0)nums2Size--;
         }
-        else {//flag1 == 1 & flag2 == 1
+        else {//flag1 == 1 && flag2 == 1
 
         }
     }
