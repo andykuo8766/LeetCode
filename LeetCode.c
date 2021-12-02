@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#define LeetCode 5
+#define LeetCode 7
 
 
 #if LeetCode == 1
@@ -192,6 +192,19 @@ char* longestPalindrome(char* s) {
     result[maxLen] = '\0';
     return result;
 }
+#elif LeetCode == 7
+// 7. Reverse Integer
+int reverse(int x) {
+    long long output = 0;
+    do
+    {
+        output = output * 10 + x % 10;
+        x /= 10;
+    } while (x);
+
+    return (output > INT_MAX || output < INT_MIN) ? 0 : output;
+}
+
 
 #endif
 void main() {
@@ -275,7 +288,9 @@ void main() {
     input = "babad";
 
     printf("%s", longestPalindrome(input));
-
-
+#elif LeetCode == 7
+    // 7. Reverse Integer
+    int input = 123456;
+    printf("%d", reverse(input));
 #endif
 }
