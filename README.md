@@ -7,8 +7,11 @@
 | `andykuo8766` | `郭紘安` | andykuo8766@gapp.nthu.edu.tw |
 
 ## The Coding Diaries
-1. [Two Sum Date](https://hackmd.io/@AndyKuo/rJmdj9JGF) : 2021/09/22
-2. [Add Two Numbers](https://hackmd.io/@AndyKuo/BJM6YP_mK) Date : 2021/09/22
-3. [Longest Substring Without Repeating Characters](https://hackmd.io/@AndyKuo/HJROVihQt) Date : 2021/09/25
-4. [Median of Two Sorted Arrays](https://hackmd.io/@AndyKuo/rk6hm_rVY) Date : 2021/10/02
-5. [Longest Palindromic Substring](https://hackmd.io/@AndyKuo/H1LFNO_Et) Date : 2021/10/04
+1. Two Sum : 2021/09/22
+2. Add Two Numbers : 2021/09/22
+3. Longest Substring Without Repeating Characters : 2021/09/25
+4. Median of Two Sorted Arrays : 2021/10/02
+5. Longest Palindromic Substring : 2021/10/04
+6. Zigzag Conversion : 
+7. Reverse Integer : 2021/12/03
+8. String to Integer (atoi) :
