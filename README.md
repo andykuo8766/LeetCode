@@ -12,6 +12,6 @@
 3. Longest Substring Without Repeating Characters : 2021/09/25
 4. Median of Two Sorted Arrays : 2021/10/02
 5. Longest Palindromic Substring : 2021/10/04
-6. Zigzag Conversion : 
+6. Zigzag Conversion : 2021/12/04
 7. Reverse Integer : 2021/12/03
 8. String to Integer (atoi) :
