@@ -14,4 +14,4 @@
 5. Longest Palindromic Substring : 2021/10/04
 6. Zigzag Conversion : 2021/12/04
 7. Reverse Integer : 2021/12/03
-8. String to Integer (atoi) :
+8. String to Integer (atoi) : 2021/12/05
