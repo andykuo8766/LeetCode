@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#define LeetCode 8
+#define LeetCode 9
 
 
 #if LeetCode == 1
@@ -255,9 +255,23 @@ int myAtoi(char* s) {
     }
     return sign == 1 ? result : -result;
 }
+#elif LeetCode == 9
+// 9. Palindrome Number
+bool isPalindrome(int x) {
+    if (x < 0) return false;
+    if (x < 10) return true;
+    long y = 0;
+    int tmp = x;
+    while (tmp) {
+        y = y * 10 + (tmp % 10);
+        tmp /= 10;
+    }
+    return x == y;
+}
+
 
 #endif
-void main() {
+int main() {
 
 #if LeetCode == 1
     //1. Two Sum
@@ -353,6 +367,18 @@ void main() {
     // 8. String to Integer (atoi)
     char input[7] = "123456";
     printf("%d", myAtoi(input));
+#elif LeetCode == 9
+    // 9. Palindrome Number
+    int x = 121;
+    if(isPalindrome(x)) {
+        printf("True\n");
+    }
+    else{
+        printf("False\n");
+    }
+
+
 
 #endif
+    return 0;
 }
